@@ -1,4 +1,4 @@
-package com.example.servletjspdemo.domain;
+package com.example.DariuszFe.domain;
 
 public class Person {
 	
