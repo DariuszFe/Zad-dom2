@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.example.DariuszFe.domain.User;
+import com.example.DariuszFe.domain.rejestracja;
 
 @WebServlet("/loginServlet.jsp")
 public class loginServlet extends HttpServlet {
@@ -23,12 +24,12 @@ public class loginServlet extends HttpServlet {
 	}
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	   
-		User user = new User();
+		rejestracja rej = new rejestracja();
 		
-		user.setlogin(request.getParameter("login"));
-		user.setpassword(request.getParameter("password"));
+		rej.setLogin(request.getParameter("login"));
+		rej.setPassword(request.getParameter("password"));
 		
-		if(user.validate()){
+		if(rej.validate()){
 			response.sendRedirect("getPersonData.jsp");
 		}else{
 			response.sendRedirect("logRej.jsp");

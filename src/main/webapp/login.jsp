@@ -11,13 +11,13 @@
 	<jsp:useBean id="storage"
 		class="com.example.DariuszFe.service.StorageService"
 		scope="application" />
-	<jsp:useBean id="user" class="com.example.DariuszFe.domain.User"
+	<jsp:useBean id="rejestracja" class="com.example.DariuszFe.domain.rejestracja"
 		scope="session" />
 
 	<form action="loginServlet.jsp" method="post">
 
-		login :<input type="text" name="login" value="${user.login}" /><br />
-		password :<input type="password" name="password" value="${user.password}" /><br />
+		login :<input type="text" name="login" value="${rejestracja.login}" /><br />
+		password :<input type="password" name="password" value="${rejestracja.password}" /><br />
 		<input type="submit" value=" OK ">
 
 	</form>

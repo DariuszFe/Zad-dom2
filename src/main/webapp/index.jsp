@@ -16,11 +16,7 @@
 	<p>
 		<a href="login.jsp">Log in</a>
 	</p>
-	 <form method="post" action="register">
-        Name:<input type="text" name="name" /><br/>
-        Email ID:<input type="text" name="email" /><br/>
-        Password:<input type="text" name="pass" /><br/>
-        <input type="submit" value="register" />
-      </form>
+	 <p>
+	    <a href="getnewPerson.jsp">Log up</a>
 </body>
 </html>
