@@ -7,15 +7,15 @@ import com.example.DariuszFe.domain.rejestracja;
 
 public class Rejestracja {
 
-private List<rejestracja> db = new ArrayList<rejestracja>();
+	private static List<rejestracja> db = new ArrayList<rejestracja>();
 
-public void add(rejestracja rejestracja){
-rejestracja newOsoba = new rejestracja(rejestracja.getLogin(),rejestracja.getPassword(),rejestracja.getEmail());
-db.add(newOsoba);
-}
+	public Rejestracja() {
 
-public List<rejestracja> getAllrejestracja(){
-return db;
-}
+	}
 
-}
+	public static List<rejestracja> getInstance() {
+
+		return db;
+	}
+
+}		

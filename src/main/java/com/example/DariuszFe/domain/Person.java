@@ -2,8 +2,8 @@ package com.example.DariuszFe.domain;
 
 public class Person {
 	
-	private String firstName = "unknown";
-	private int yob = 1900;
+	private String firstName = "firstname";
+	private int yob = 1992;
 	
 	public Person() {
 		super();

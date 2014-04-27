@@ -22,5 +22,9 @@
 
 	</form>
 	<p><h2>Wrong password or invalid user name</h2></p>
+	
+	<form action="getnewPerson.jsp" method="post">
+	<input type="submit" value="Rejestracja">
+	</form>
 </body>
 </html>

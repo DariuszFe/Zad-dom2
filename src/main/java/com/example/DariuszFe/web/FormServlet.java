@@ -21,13 +21,13 @@ public class FormServlet extends HttpServlet {
 		response.setContentType("text/html");
 		
 		PrintWriter out = response.getWriter();
-		out.println("<html><body><h2>Simple form servlet</h2>" +
+		out.println("<html><body><h2>What is you favorite Sport</h2>" +
 				"<form action='data'>" +
-				"First name: <input type='text' name='firstName' /> <br />" +
+				"Alias: <input type='text' name='firstName' /> <br />" +
 				"<input type='checkbox' name='hobby' value='bicycle'>I like riding a bicycle<br />" +
-				"<input type='checkbox' name='hobby' value='tv'>I like watching TV<br />" +
-				"<input type='checkbox' name='hobby' value='beer'>I like dringking beer<br />" +
-				"<input type='checkbox' name='hobby' value='books'>I like reading books<br />" +
+				"<input type='checkbox' name='hobby' value='run'>I like running <br />" +
+				"<input type='checkbox' name='hobby' value='voleyball'>I like play volleyball<br />" +
+				"<input type='checkbox' name='hobby' value='football'>I like play football<br />" +
 				"<input type='submit' value=' OK ' />" +
 				"</form>" +
 				"</body></html>");

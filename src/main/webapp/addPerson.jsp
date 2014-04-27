@@ -18,7 +18,7 @@
   storage.add(person);
 %>
 
-	<p>Following person has been added to storage:</p>
+	<p>Following person has been added to Racing:</p>
 	<p>First name: ${person.firstName}</p>
 	<p>
 		Year of birth:

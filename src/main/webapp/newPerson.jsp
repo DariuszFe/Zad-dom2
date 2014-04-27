@@ -15,7 +15,7 @@
 	<jsp:useBean id="storagee" class="com.example.DariuszFe.service.Rejestracja" scope="application" />
 
 <% 
-  storagee.add(rejestracja);
+  storagee.getInstance().add(rejestracja);
 %>
 
 	<p>Zarejestrowano</p>

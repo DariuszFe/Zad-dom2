@@ -9,7 +9,7 @@
 </head>
 <body>
 <table border=1 width="100%">
-	<tr><td><center><h2>Registration for racing in Kościerzyna</h2></center></td></tr>
+	<tr><td><center><h2>Registration for racing in Gdańsk</h2></center></td></tr>
 </table>
 	
 	<p>To subscribe to the racing must log</p>
@@ -18,5 +18,6 @@
 	</p>
 	 <p>
 	    <a href="getnewPerson.jsp">Log up</a>
+	 </p>
 </body>
 </html>
